@@ -1,0 +1,20 @@
+There was a problem with upload.
+
+Dependencies:
+django
+mayaavi
+pyDot
+
+numpy
+
+run python manage.py runserver
+
+goto localhost:portnum/repo 
+
+enter the download link of the github repo of the software. visualizations will 
+be shown subsequently 
+First one will be saved in xml folder as vis.png
+example : try this link : https://github.com/TheAlgorithms/C-Plus-Plus.git
+
+NOTE: when the Software is too big the tool will not work,
+      Also the link should in the format shown above with .git in the end

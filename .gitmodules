@@ -1,0 +1,6 @@
+[submodule "soviz/doxygen"]
+	path = soviz/doxygen
+	url = https://github.com/doxygen.git
+[submodule "software/C-Plus-Plus"]
+	path = software/C-Plus-Plus
+	url = https://github.com/TheAlgorithms/C-Plus-Plus.git
