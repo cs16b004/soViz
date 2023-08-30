@@ -11,7 +11,7 @@ def getf (link):
     dir_name = url.split("/")[-1].split(".")[0]
     print(dir_name)
     #git.Git(cwd + '/softwares').clone(url)
-    os.chdir(os.getcwd()+"/softwares")
+    os.chdir(os.getcwd()+"/software")
     print(os.getcwd())
     os.system("git clone " +url)
     os.chdir(os.getcwd() + "/" + dir_name)

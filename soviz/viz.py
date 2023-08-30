@@ -19,7 +19,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 graph = {}
 
-path = dir_path+ '/softwares/bb'
+path = dir_path+ '/software/bb'
 path2 = dir_path
 for filename in os.listdir(path):
     if not filename.endswith('.xml'): continue

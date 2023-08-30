@@ -30,7 +30,7 @@ def thank(nme):
 
     graph = {}
     #print("---------------------------------------------------------------\nnme\n------------------------------------\n")
-    path = dir_path+'/softwares/'+ nme + '/xml'
+    path = dir_path+'/software/'+ nme + '/xml'
 
     for filename in os.listdir(path):
         if not filename.endswith('.xml'): continue
@@ -333,7 +333,7 @@ def getf (link):
     print(dir_name)
     nme = dir_name
     #git.Git(cwd + '/softwares').clone(url)
-    os.chdir(os.getcwd()+"/soviz/softwares")
+    os.chdir(os.getcwd()+"/software")
     print(os.getcwd())
     os.system("git clone " +url)
     os.chdir(os.getcwd() + "/" + dir_name)
