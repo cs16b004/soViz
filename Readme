@@ -1,5 +1,6 @@
 
-
+- A software visualization tool written with Python, Django.
+- It works from inputs from Doxygen and creates software visualisations, using Mayavi Pydot etc.
 
 run python manage.py runserver
 
