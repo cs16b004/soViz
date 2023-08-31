@@ -333,7 +333,8 @@ def getf (link):
     print(dir_name)
     nme = dir_name
     #git.Git(cwd + '/softwares').clone(url)
-    os.chdir(os.getcwd()+"/software")
+    os.chdir(os.getcwd())
+    os.chdir("../")
     print(os.getcwd())
     os.system("git clone " +url)
     os.chdir(os.getcwd() + "/" + dir_name)
